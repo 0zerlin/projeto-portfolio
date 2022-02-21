@@ -1,0 +1,29 @@
+//variavel de cor 
+
+$color-white:#FFFFFF;
+$color-green: #008B8B;
+$color-brown:#A4A4A4;
+$color-black:#0000;
+$color-teal:#008080;
+
+
+//variavel de media query 
+$media-mobile-s: 320px;
+$media-mobile-m: 375px;
+$media-mobile-l: 425px;
+$media-mobile-tablet: 768px;
+$media-desktop: 1024px;
+
+//mixins de font de
+@mixin font-title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+@mixin font-subtitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+@mixin font-paragraph {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
